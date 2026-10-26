@@ -1,0 +1,510 @@
+{
+  "CreatedAtUTC": "2026-10-26T04:01:20.961968+00:00",
+  "RequestStartedAtUTC": "2026-10-26T04:00:57.827432+00:00",
+  "ResponseReceivedAtUTC": "2026-10-26T04:01:20.883385+00:00",
+  "HTTPStatus": 200,
+  "RawBytes": 570984,
+  "RawApiFile": "E:\\PythonProject\\OptionMonitor_V2\\data\\api_tests\\BR102_tsetmc_raw_20261026_040057.json",
+  "Database": "OptionMarketDB_V2",
+  "Underlying": {
+    "UnderlyingID": 1,
+    "Symbol": "اهرم"
+  },
+  "TodayLocal": "2026-10-26",
+  "Mode": "DRY_RUN",
+  "ApiRecordCount": 645,
+  "UnderlyingRecordCount": 35,
+  "SourceContractCount": 70,
+  "DatabaseContractCount": 84,
+  "MatchedCount": 48,
+  "SourceOnlyCount": 22,
+  "DatabaseOnlyCount": 36,
+  "MatchedMetadataIssues": [],
+  "ProposedInsert": [
+    {
+      "TSEInsCode": "10553433097056151",
+      "Symbol": "ضهرم1039",
+      "ContractName": "اختيارخ اهرم-80000-1405/10/30",
+      "OptionType": "C",
+      "StrikePrice": "80000",
+      "ExpiryDate": "2027-01-20",
+      "ExpiryDatePersian": "1405/10/30",
+      "ContractSize": 1000,
+      "UnderlyingID": 1,
+      "SourceRecordIndex": 30
+    },
+    {
+      "TSEInsCode": "180608939495255",
+      "Symbol": "ضهرم1037",
+      "ContractName": "اختيارخ اهرم-68000-1405/10/30",
+      "OptionType": "C",
+      "StrikePrice": "68000",
+      "ExpiryDate": "2027-01-20",
+      "ExpiryDatePersian": "1405/10/30",
+      "ContractSize": 1000,
+      "UnderlyingID": 1,
+      "SourceRecordIndex": 28
+    },
+    {
+      "TSEInsCode": "19693832241143005",
+      "Symbol": "ضهرم1033",
+      "ContractName": "اختيارخ اهرم-46000-1405/10/30",
+      "OptionType": "C",
+      "StrikePrice": "46000",
+      "ExpiryDate": "2027-01-20",
+      "ExpiryDatePersian": "1405/10/30",
+      "ContractSize": 1000,
+      "UnderlyingID": 1,
+      "SourceRecordIndex": 24
+    },
+    {
+      "TSEInsCode": "21385303564311864",
+      "Symbol": "ضهرم1038",
+      "ContractName": "اختيارخ اهرم-74000-1405/10/30",
+      "OptionType": "C",
+      "StrikePrice": "74000",
+      "ExpiryDate": "2027-01-20",
+      "ExpiryDatePersian": "1405/10/30",
+      "ContractSize": 1000,
+      "UnderlyingID": 1,
+      "SourceRecordIndex": 29
+    },
+    {
+      "TSEInsCode": "24131497443766732",
+      "Symbol": "ضهرم1035",
+      "ContractName": "اختيارخ اهرم-56000-1405/10/30",
+      "OptionType": "C",
+      "StrikePrice": "56000",
+      "ExpiryDate": "2027-01-20",
+      "ExpiryDatePersian": "1405/10/30",
+      "ContractSize": 1000,
+      "UnderlyingID": 1,
+      "SourceRecordIndex": 26
+    },
+    {
+      "TSEInsCode": "2531320015411062",
+      "Symbol": "طهرم1043",
+      "ContractName": "اختيارف اهرم-120000-1405/10/30",
+      "OptionType": "P",
+      "StrikePrice": "120000",
+      "ExpiryDate": "2027-01-20",
+      "ExpiryDatePersian": "1405/10/30",
+      "ContractSize": 1000,
+      "UnderlyingID": 1,
+      "SourceRecordIndex": 34
+    },
+    {
+      "TSEInsCode": "25772103211710801",
+      "Symbol": "طهرم1035",
+      "ContractName": "اختيارف اهرم-56000-1405/10/30",
+      "OptionType": "P",
+      "StrikePrice": "56000",
+      "ExpiryDate": "2027-01-20",
+      "ExpiryDatePersian": "1405/10/30",
+      "ContractSize": 1000,
+      "UnderlyingID": 1,
+      "SourceRecordIndex": 26
+    },
+    {
+      "TSEInsCode": "29424233513003823",
+      "Symbol": "ضهرم1040",
+      "ContractName": "اختيارخ اهرم-90000-1405/10/30",
+      "OptionType": "C",
+      "StrikePrice": "90000",
+      "ExpiryDate": "2027-01-20",
+      "ExpiryDatePersian": "1405/10/30",
+      "ContractSize": 1000,
+      "UnderlyingID": 1,
+      "SourceRecordIndex": 31
+    },
+    {
+      "TSEInsCode": "41603405657652823",
+      "Symbol": "طهرم1036",
+      "ContractName": "اختيارف اهرم-62000-1405/10/30",
+      "OptionType": "P",
+      "StrikePrice": "62000",
+      "ExpiryDate": "2027-01-20",
+      "ExpiryDatePersian": "1405/10/30",
+      "ContractSize": 1000,
+      "UnderlyingID": 1,
+      "SourceRecordIndex": 27
+    },
+    {
+      "TSEInsCode": "41901637626576527",
+      "Symbol": "طهرم1042",
+      "ContractName": "اختيارف اهرم-110000-1405/10/30",
+      "OptionType": "P",
+      "StrikePrice": "110000",
+      "ExpiryDate": "2027-01-20",
+      "ExpiryDatePersian": "1405/10/30",
+      "ContractSize": 1000,
+      "UnderlyingID": 1,
+      "SourceRecordIndex": 33
+    },
+    {
+      "TSEInsCode": "42511156565416187",
+      "Symbol": "ضهرم1034",
+      "ContractName": "اختيارخ اهرم-50000-1405/10/30",
+      "OptionType": "C",
+      "StrikePrice": "50000",
+      "ExpiryDate": "2027-01-20",
+      "ExpiryDatePersian": "1405/10/30",
+      "ContractSize": 1000,
+      "UnderlyingID": 1,
+      "SourceRecordIndex": 25
+    },
+    {
+      "TSEInsCode": "45030241165310579",
+      "Symbol": "طهرم1033",
+      "ContractName": "اختيارف اهرم-46000-1405/10/30",
+      "OptionType": "P",
+      "StrikePrice": "46000",
+      "ExpiryDate": "2027-01-20",
+      "ExpiryDatePersian": "1405/10/30",
+      "ContractSize": 1000,
+      "UnderlyingID": 1,
+      "SourceRecordIndex": 24
+    },
+    {
+      "TSEInsCode": "45768009941430542",
+      "Symbol": "ضهرم1043",
+      "ContractName": "اختيارخ اهرم-120000-1405/10/30",
+      "OptionType": "C",
+      "StrikePrice": "120000",
+      "ExpiryDate": "2027-01-20",
+      "ExpiryDatePersian": "1405/10/30",
+      "ContractSize": 1000,
+      "UnderlyingID": 1,
+      "SourceRecordIndex": 34
+    },
+    {
+      "TSEInsCode": "47875093814457181",
+      "Symbol": "طهرم1039",
+      "ContractName": "اختيارف اهرم-80000-1405/10/30",
+      "OptionType": "P",
+      "StrikePrice": "80000",
+      "ExpiryDate": "2027-01-20",
+      "ExpiryDatePersian": "1405/10/30",
+      "ContractSize": 1000,
+      "UnderlyingID": 1,
+      "SourceRecordIndex": 30
+    },
+    {
+      "TSEInsCode": "54006944850016544",
+      "Symbol": "طهرم1034",
+      "ContractName": "اختيارف اهرم-50000-1405/10/30",
+      "OptionType": "P",
+      "StrikePrice": "50000",
+      "ExpiryDate": "2027-01-20",
+      "ExpiryDatePersian": "1405/10/30",
+      "ContractSize": 1000,
+      "UnderlyingID": 1,
+      "SourceRecordIndex": 25
+    },
+    {
+      "TSEInsCode": "55334557154157949",
+      "Symbol": "طهرم1038",
+      "ContractName": "اختيارف اهرم-74000-1405/10/30",
+      "OptionType": "P",
+      "StrikePrice": "74000",
+      "ExpiryDate": "2027-01-20",
+      "ExpiryDatePersian": "1405/10/30",
+      "ContractSize": 1000,
+      "UnderlyingID": 1,
+      "SourceRecordIndex": 29
+    },
+    {
+      "TSEInsCode": "57034983342177082",
+      "Symbol": "طهرم1037",
+      "ContractName": "اختيارف اهرم-68000-1405/10/30",
+      "OptionType": "P",
+      "StrikePrice": "68000",
+      "ExpiryDate": "2027-01-20",
+      "ExpiryDatePersian": "1405/10/30",
+      "ContractSize": 1000,
+      "UnderlyingID": 1,
+      "SourceRecordIndex": 28
+    },
+    {
+      "TSEInsCode": "57597726475581654",
+      "Symbol": "ضهرم1042",
+      "ContractName": "اختيارخ اهرم-110000-1405/10/30",
+      "OptionType": "C",
+      "StrikePrice": "110000",
+      "ExpiryDate": "2027-01-20",
+      "ExpiryDatePersian": "1405/10/30",
+      "ContractSize": 1000,
+      "UnderlyingID": 1,
+      "SourceRecordIndex": 33
+    },
+    {
+      "TSEInsCode": "66118902229267173",
+      "Symbol": "ضهرم1036",
+      "ContractName": "اختيارخ اهرم-62000-1405/10/30",
+      "OptionType": "C",
+      "StrikePrice": "62000",
+      "ExpiryDate": "2027-01-20",
+      "ExpiryDatePersian": "1405/10/30",
+      "ContractSize": 1000,
+      "UnderlyingID": 1,
+      "SourceRecordIndex": 27
+    },
+    {
+      "TSEInsCode": "68475700698158846",
+      "Symbol": "طهرم1041",
+      "ContractName": "اختيارف اهرم-100000-1405/10/30",
+      "OptionType": "P",
+      "StrikePrice": "100000",
+      "ExpiryDate": "2027-01-20",
+      "ExpiryDatePersian": "1405/10/30",
+      "ContractSize": 1000,
+      "UnderlyingID": 1,
+      "SourceRecordIndex": 32
+    },
+    {
+      "TSEInsCode": "69156267982233177",
+      "Symbol": "طهرم1040",
+      "ContractName": "اختيارف اهرم-90000-1405/10/30",
+      "OptionType": "P",
+      "StrikePrice": "90000",
+      "ExpiryDate": "2027-01-20",
+      "ExpiryDatePersian": "1405/10/30",
+      "ContractSize": 1000,
+      "UnderlyingID": 1,
+      "SourceRecordIndex": 31
+    },
+    {
+      "TSEInsCode": "8802832452124529",
+      "Symbol": "ضهرم1041",
+      "ContractName": "اختيارخ اهرم-100000-1405/10/30",
+      "OptionType": "C",
+      "StrikePrice": "100000",
+      "ExpiryDate": "2027-01-20",
+      "ExpiryDatePersian": "1405/10/30",
+      "ContractSize": 1000,
+      "UnderlyingID": 1,
+      "SourceRecordIndex": 32
+    }
+  ],
+  "ProposedDeactivateExpired": [
+    {
+      "OptionID": 80,
+      "TSEInsCode": "18076398465551639",
+      "ExpiryDate": "2026-10-21",
+      "WasActive": true
+    },
+    {
+      "OptionID": 56,
+      "TSEInsCode": "2395225131488459",
+      "ExpiryDate": "2026-10-21",
+      "WasActive": true
+    },
+    {
+      "OptionID": 24,
+      "TSEInsCode": "23953663226548375",
+      "ExpiryDate": "2026-10-21",
+      "WasActive": true
+    },
+    {
+      "OptionID": 5,
+      "TSEInsCode": "26116073846521759",
+      "ExpiryDate": "2026-10-21",
+      "WasActive": true
+    },
+    {
+      "OptionID": 13,
+      "TSEInsCode": "26958565996800765",
+      "ExpiryDate": "2026-10-21",
+      "WasActive": true
+    },
+    {
+      "OptionID": 15,
+      "TSEInsCode": "28004646087700990",
+      "ExpiryDate": "2026-10-21",
+      "WasActive": true
+    },
+    {
+      "OptionID": 8,
+      "TSEInsCode": "28144333261517699",
+      "ExpiryDate": "2026-10-21",
+      "WasActive": true
+    },
+    {
+      "OptionID": 14,
+      "TSEInsCode": "29778185185510585",
+      "ExpiryDate": "2026-10-21",
+      "WasActive": true
+    },
+    {
+      "OptionID": 6,
+      "TSEInsCode": "2981675816992995",
+      "ExpiryDate": "2026-10-21",
+      "WasActive": true
+    },
+    {
+      "OptionID": 3,
+      "TSEInsCode": "33729769377762283",
+      "ExpiryDate": "2026-10-21",
+      "WasActive": true
+    },
+    {
+      "OptionID": 20,
+      "TSEInsCode": "34175952452012705",
+      "ExpiryDate": "2026-10-21",
+      "WasActive": true
+    },
+    {
+      "OptionID": 9,
+      "TSEInsCode": "3601271742898640",
+      "ExpiryDate": "2026-10-21",
+      "WasActive": true
+    },
+    {
+      "OptionID": 18,
+      "TSEInsCode": "36376073274065755",
+      "ExpiryDate": "2026-10-21",
+      "WasActive": true
+    },
+    {
+      "OptionID": 16,
+      "TSEInsCode": "3959980703154953",
+      "ExpiryDate": "2026-10-21",
+      "WasActive": true
+    },
+    {
+      "OptionID": 17,
+      "TSEInsCode": "41273399333337429",
+      "ExpiryDate": "2026-10-21",
+      "WasActive": true
+    },
+    {
+      "OptionID": 54,
+      "TSEInsCode": "45260140814147731",
+      "ExpiryDate": "2026-10-21",
+      "WasActive": true
+    },
+    {
+      "OptionID": 55,
+      "TSEInsCode": "47189190877578184",
+      "ExpiryDate": "2026-10-21",
+      "WasActive": true
+    },
+    {
+      "OptionID": 22,
+      "TSEInsCode": "48417927688227268",
+      "ExpiryDate": "2026-10-21",
+      "WasActive": true
+    },
+    {
+      "OptionID": 53,
+      "TSEInsCode": "49816586330607170",
+      "ExpiryDate": "2026-10-21",
+      "WasActive": true
+    },
+    {
+      "OptionID": 7,
+      "TSEInsCode": "50381533386072990",
+      "ExpiryDate": "2026-10-21",
+      "WasActive": true
+    },
+    {
+      "OptionID": 11,
+      "TSEInsCode": "50722285466614154",
+      "ExpiryDate": "2026-10-21",
+      "WasActive": true
+    },
+    {
+      "OptionID": 51,
+      "TSEInsCode": "52553501104605839",
+      "ExpiryDate": "2026-10-21",
+      "WasActive": true
+    },
+    {
+      "OptionID": 49,
+      "TSEInsCode": "53188074928115116",
+      "ExpiryDate": "2026-10-21",
+      "WasActive": true
+    },
+    {
+      "OptionID": 19,
+      "TSEInsCode": "56981594284253648",
+      "ExpiryDate": "2026-10-21",
+      "WasActive": true
+    },
+    {
+      "OptionID": 52,
+      "TSEInsCode": "60518811070166899",
+      "ExpiryDate": "2026-10-21",
+      "WasActive": true
+    },
+    {
+      "OptionID": 2,
+      "TSEInsCode": "62444611500832644",
+      "ExpiryDate": "2026-10-21",
+      "WasActive": true
+    },
+    {
+      "OptionID": 21,
+      "TSEInsCode": "62913554535814385",
+      "ExpiryDate": "2026-10-21",
+      "WasActive": true
+    },
+    {
+      "OptionID": 23,
+      "TSEInsCode": "62922467095421733",
+      "ExpiryDate": "2026-10-21",
+      "WasActive": true
+    },
+    {
+      "OptionID": 10,
+      "TSEInsCode": "637801642303120",
+      "ExpiryDate": "2026-10-21",
+      "WasActive": true
+    },
+    {
+      "OptionID": 26,
+      "TSEInsCode": "63976939731487182",
+      "ExpiryDate": "2026-10-21",
+      "WasActive": true
+    },
+    {
+      "OptionID": 79,
+      "TSEInsCode": "65990560704289616",
+      "ExpiryDate": "2026-10-21",
+      "WasActive": true
+    },
+    {
+      "OptionID": 25,
+      "TSEInsCode": "68984808439842234",
+      "ExpiryDate": "2026-10-21",
+      "WasActive": true
+    },
+    {
+      "OptionID": 1,
+      "TSEInsCode": "68991773475135927",
+      "ExpiryDate": "2026-10-21",
+      "WasActive": true
+    },
+    {
+      "OptionID": 4,
+      "TSEInsCode": "7693632359685850",
+      "ExpiryDate": "2026-10-21",
+      "WasActive": true
+    },
+    {
+      "OptionID": 12,
+      "TSEInsCode": "8317476333644321",
+      "ExpiryDate": "2026-10-21",
+      "WasActive": true
+    },
+    {
+      "OptionID": 50,
+      "TSEInsCode": "9766397730892719",
+      "ExpiryDate": "2026-10-21",
+      "WasActive": true
+    }
+  ],
+  "Errors": [],
+  "Warnings": [],
+  "DatabaseWritesCommitted": false
+}
