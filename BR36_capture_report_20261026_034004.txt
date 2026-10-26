@@ -1,0 +1,36 @@
+==============================================================================
+BR36: LIVE MARKET DATA CAPTURE
+==============================================================================
+Project: E:\PythonProject\OptionMonitor_V2
+Database: OptionMarketDB_V2
+Underlying InsCode: 17914401175772326
+Mode: LIVE DATABASE WRITE
+Direct API URL: https://cdn.tsetmc.com/api/Instrument/GetInstrumentOptionMarketWatch/1
+Request started UTC: 2026-10-26 03:40:04.775927
+HTTP status: 200
+Response received UTC: 2026-10-26 03:40:05.191361
+Response bytes: 570984
+Source JSON label: TSETMC_DIRECT_API_20261026_034005.json
+
+BR36-A: SOURCE
+Total API records: 645
+Underlying records: 35
+Normalized option contracts: 70
+Unique source contract IDs: 70
+
+BR36-B: DATABASE MATCHING
+UnderlyingID: 1
+Underlying symbol: اهرم
+Database contracts: 84
+Exact source/database matches: 48
+
+BR36-C: VALIDATION
+Errors: 1
+Warnings: 2
+ERROR: Source/database contract sets do not match: source-only=22, database-only=36.
+WARNING: Expected 84 source contracts; found 70.
+WARNING: Expected 42 underlying API records; found 35.
+Plan JSON: E:\PythonProject\OptionMonitor_V2\data\api_tests\BR36_capture_plan_20261026_034004.json
+
+BR36 RESULT: FAILED VALIDATION
+No database writes were performed.
