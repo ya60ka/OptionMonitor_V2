@@ -1,0 +1,92 @@
+==============================================================================
+BR101 - READ-ONLY API CONTRACT DIFFERENCE
+Database: OptionMarketDB_V2
+API: https://cdn.tsetmc.com/api/Instrument/GetInstrumentOptionMarketWatch/1
+Underlying InsCode: 17914401175772326
+Database operations: SELECT only; transaction will be rolled back.
+
+RESULTS
+HTTP status: 200
+Request started UTC: 2026-10-26T03:43:29.255273+00:00
+Response received UTC: 2026-10-26T03:43:29.903689+00:00
+Response bytes: 570984
+Total API records: 645
+Underlying records: 35
+Unique source option IDs: 70
+Database contract rows: 84
+Unique database IDs: 84
+Matched IDs: 48
+Source-only IDs: 22
+Database-only IDs: 36
+Duplicate source IDs: 0
+Duplicate database IDs: 0
+Source rows missing IDs: 0
+
+Exact raw JSON saved: E:\PythonProject\OptionMonitor_V2\data\api_tests\BR101_tsetmc_raw_20261026_034329.json
+Exact raw bytes saved: E:\PythonProject\OptionMonitor_V2\data\api_tests\BR101_tsetmc_raw_20261026_034329.bin
+Difference report JSON saved: E:\PythonProject\OptionMonitor_V2\data\api_tests\BR101_contract_id_diff_20261026_034329.json
+No database writes were performed.
+
+SOURCE-ONLY IDS:
+  10553433097056151 | side=C
+  180608939495255 | side=C
+  19693832241143005 | side=C
+  21385303564311864 | side=C
+  24131497443766732 | side=C
+  2531320015411062 | side=P
+  25772103211710801 | side=P
+  29424233513003823 | side=C
+  41603405657652823 | side=P
+  41901637626576527 | side=P
+  42511156565416187 | side=C
+  45030241165310579 | side=P
+  45768009941430542 | side=C
+  47875093814457181 | side=P
+  54006944850016544 | side=P
+  55334557154157949 | side=P
+  57034983342177082 | side=P
+  57597726475581654 | side=C
+  66118902229267173 | side=C
+  68475700698158846 | side=P
+  69156267982233177 | side=P
+  8802832452124529 | side=C
+
+DATABASE-ONLY IDS:
+  18076398465551639 | side=C | strike=100000.0000 | expiry=2026-10-21
+  2395225131488459 | side=C | strike=90000.0000 | expiry=2026-10-21
+  23953663226548375 | side=C | strike=56000.0000 | expiry=2026-10-21
+  26116073846521759 | side=P | strike=24000.0000 | expiry=2026-10-21
+  26958565996800765 | side=P | strike=34000.0000 | expiry=2026-10-21
+  28004646087700990 | side=P | strike=38000.0000 | expiry=2026-10-21
+  28144333261517699 | side=C | strike=26000.0000 | expiry=2026-10-21
+  29778185185510585 | side=C | strike=34000.0000 | expiry=2026-10-21
+  2981675816992995 | side=C | strike=24000.0000 | expiry=2026-10-21
+  33729769377762283 | side=P | strike=22000.0000 | expiry=2026-10-21
+  34175952452012705 | side=C | strike=46000.0000 | expiry=2026-10-21
+  3601271742898640 | side=P | strike=28000.0000 | expiry=2026-10-21
+  36376073274065755 | side=C | strike=42000.0000 | expiry=2026-10-21
+  3959980703154953 | side=C | strike=38000.0000 | expiry=2026-10-21
+  41273399333337429 | side=P | strike=42000.0000 | expiry=2026-10-21
+  45260140814147731 | side=C | strike=80000.0000 | expiry=2026-10-21
+  47189190877578184 | side=P | strike=90000.0000 | expiry=2026-10-21
+  48417927688227268 | side=C | strike=50000.0000 | expiry=2026-10-21
+  49816586330607170 | side=P | strike=80000.0000 | expiry=2026-10-21
+  50381533386072990 | side=P | strike=26000.0000 | expiry=2026-10-21
+  50722285466614154 | side=P | strike=30000.0000 | expiry=2026-10-21
+  52553501104605839 | side=P | strike=74000.0000 | expiry=2026-10-21
+  53188074928115116 | side=P | strike=68000.0000 | expiry=2026-10-21
+  56981594284253648 | side=P | strike=46000.0000 | expiry=2026-10-21
+  60518811070166899 | side=C | strike=74000.0000 | expiry=2026-10-21
+  62444611500832644 | side=C | strike=20000.0000 | expiry=2026-10-21
+  62913554535814385 | side=P | strike=50000.0000 | expiry=2026-10-21
+  62922467095421733 | side=P | strike=56000.0000 | expiry=2026-10-21
+  637801642303120 | side=C | strike=28000.0000 | expiry=2026-10-21
+  63976939731487182 | side=C | strike=62000.0000 | expiry=2026-10-21
+  65990560704289616 | side=P | strike=100000.0000 | expiry=2026-10-21
+  68984808439842234 | side=P | strike=62000.0000 | expiry=2026-10-21
+  68991773475135927 | side=P | strike=20000.0000 | expiry=2026-10-21
+  7693632359685850 | side=C | strike=22000.0000 | expiry=2026-10-21
+  8317476333644321 | side=C | strike=30000.0000 | expiry=2026-10-21
+  9766397730892719 | side=C | strike=68000.0000 | expiry=2026-10-21
+
+BR101 RESULT: COMPLETED (diagnostic only)

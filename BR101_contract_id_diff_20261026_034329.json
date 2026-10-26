@@ -1,0 +1,892 @@
+{
+  "CreatedAtUTC": "2026-10-26T03:43:30.612948+00:00",
+  "API_URL": "https://cdn.tsetmc.com/api/Instrument/GetInstrumentOptionMarketWatch/1",
+  "HTTPStatus": 200,
+  "RequestStartedAtUTC": "2026-10-26T03:43:29.255273+00:00",
+  "ResponseReceivedAtUTC": "2026-10-26T03:43:29.903689+00:00",
+  "RawResponseBytes": 570984,
+  "RawJSONPath": "E:\\PythonProject\\OptionMonitor_V2\\data\\api_tests\\BR101_tsetmc_raw_20261026_034329.json",
+  "RawBytesPath": "E:\\PythonProject\\OptionMonitor_V2\\data\\api_tests\\BR101_tsetmc_raw_20261026_034329.bin",
+  "Database": "OptionMarketDB_V2",
+  "Underlying": {
+    "UnderlyingID": 1,
+    "TSEInsCode": "17914401175772326",
+    "Symbol": "اهرم",
+    "IsActive": true
+  },
+  "ApiRecordCount": 645,
+  "UnderlyingRecordCount": 35,
+  "SourceUniqueOptionIDCount": 70,
+  "DatabaseContractRowCount": 84,
+  "DatabaseUniqueOptionIDCount": 84,
+  "MatchedCount": 48,
+  "SourceOnlyCount": 22,
+  "DatabaseOnlyCount": 36,
+  "DuplicateSourceIDs": [],
+  "DuplicateDatabaseIDs": [],
+  "SourceRowsMissingOptionID": [],
+  "SourceOnly": [
+    {
+      "TSEInsCode": "10553433097056151",
+      "OptionType": "C",
+      "source_record_index": 30,
+      "symbol": null,
+      "contractSize": 1000,
+      "strike": 80000,
+      "expiry": null
+    },
+    {
+      "TSEInsCode": "180608939495255",
+      "OptionType": "C",
+      "source_record_index": 28,
+      "symbol": null,
+      "contractSize": 1000,
+      "strike": 68000,
+      "expiry": null
+    },
+    {
+      "TSEInsCode": "19693832241143005",
+      "OptionType": "C",
+      "source_record_index": 24,
+      "symbol": null,
+      "contractSize": 1000,
+      "strike": 46000,
+      "expiry": null
+    },
+    {
+      "TSEInsCode": "21385303564311864",
+      "OptionType": "C",
+      "source_record_index": 29,
+      "symbol": null,
+      "contractSize": 1000,
+      "strike": 74000,
+      "expiry": null
+    },
+    {
+      "TSEInsCode": "24131497443766732",
+      "OptionType": "C",
+      "source_record_index": 26,
+      "symbol": null,
+      "contractSize": 1000,
+      "strike": 56000,
+      "expiry": null
+    },
+    {
+      "TSEInsCode": "2531320015411062",
+      "OptionType": "P",
+      "source_record_index": 34,
+      "symbol": null,
+      "contractSize": 1000,
+      "strike": 120000,
+      "expiry": null
+    },
+    {
+      "TSEInsCode": "25772103211710801",
+      "OptionType": "P",
+      "source_record_index": 26,
+      "symbol": null,
+      "contractSize": 1000,
+      "strike": 56000,
+      "expiry": null
+    },
+    {
+      "TSEInsCode": "29424233513003823",
+      "OptionType": "C",
+      "source_record_index": 31,
+      "symbol": null,
+      "contractSize": 1000,
+      "strike": 90000,
+      "expiry": null
+    },
+    {
+      "TSEInsCode": "41603405657652823",
+      "OptionType": "P",
+      "source_record_index": 27,
+      "symbol": null,
+      "contractSize": 1000,
+      "strike": 62000,
+      "expiry": null
+    },
+    {
+      "TSEInsCode": "41901637626576527",
+      "OptionType": "P",
+      "source_record_index": 33,
+      "symbol": null,
+      "contractSize": 1000,
+      "strike": 110000,
+      "expiry": null
+    },
+    {
+      "TSEInsCode": "42511156565416187",
+      "OptionType": "C",
+      "source_record_index": 25,
+      "symbol": null,
+      "contractSize": 1000,
+      "strike": 50000,
+      "expiry": null
+    },
+    {
+      "TSEInsCode": "45030241165310579",
+      "OptionType": "P",
+      "source_record_index": 24,
+      "symbol": null,
+      "contractSize": 1000,
+      "strike": 46000,
+      "expiry": null
+    },
+    {
+      "TSEInsCode": "45768009941430542",
+      "OptionType": "C",
+      "source_record_index": 34,
+      "symbol": null,
+      "contractSize": 1000,
+      "strike": 120000,
+      "expiry": null
+    },
+    {
+      "TSEInsCode": "47875093814457181",
+      "OptionType": "P",
+      "source_record_index": 30,
+      "symbol": null,
+      "contractSize": 1000,
+      "strike": 80000,
+      "expiry": null
+    },
+    {
+      "TSEInsCode": "54006944850016544",
+      "OptionType": "P",
+      "source_record_index": 25,
+      "symbol": null,
+      "contractSize": 1000,
+      "strike": 50000,
+      "expiry": null
+    },
+    {
+      "TSEInsCode": "55334557154157949",
+      "OptionType": "P",
+      "source_record_index": 29,
+      "symbol": null,
+      "contractSize": 1000,
+      "strike": 74000,
+      "expiry": null
+    },
+    {
+      "TSEInsCode": "57034983342177082",
+      "OptionType": "P",
+      "source_record_index": 28,
+      "symbol": null,
+      "contractSize": 1000,
+      "strike": 68000,
+      "expiry": null
+    },
+    {
+      "TSEInsCode": "57597726475581654",
+      "OptionType": "C",
+      "source_record_index": 33,
+      "symbol": null,
+      "contractSize": 1000,
+      "strike": 110000,
+      "expiry": null
+    },
+    {
+      "TSEInsCode": "66118902229267173",
+      "OptionType": "C",
+      "source_record_index": 27,
+      "symbol": null,
+      "contractSize": 1000,
+      "strike": 62000,
+      "expiry": null
+    },
+    {
+      "TSEInsCode": "68475700698158846",
+      "OptionType": "P",
+      "source_record_index": 32,
+      "symbol": null,
+      "contractSize": 1000,
+      "strike": 100000,
+      "expiry": null
+    },
+    {
+      "TSEInsCode": "69156267982233177",
+      "OptionType": "P",
+      "source_record_index": 31,
+      "symbol": null,
+      "contractSize": 1000,
+      "strike": 90000,
+      "expiry": null
+    },
+    {
+      "TSEInsCode": "8802832452124529",
+      "OptionType": "C",
+      "source_record_index": 32,
+      "symbol": null,
+      "contractSize": 1000,
+      "strike": 100000,
+      "expiry": null
+    }
+  ],
+  "DatabaseOnly": [
+    {
+      "OptionID": 80,
+      "TSEInsCode": "18076398465551639",
+      "OptionType": "C",
+      "StrikePrice": "100000.0000",
+      "ExpiryDate": "2026-10-21",
+      "ExpiryDatePersian": "1405/07/29",
+      "IsActive": true
+    },
+    {
+      "OptionID": 56,
+      "TSEInsCode": "2395225131488459",
+      "OptionType": "C",
+      "StrikePrice": "90000.0000",
+      "ExpiryDate": "2026-10-21",
+      "ExpiryDatePersian": "1405/07/29",
+      "IsActive": true
+    },
+    {
+      "OptionID": 24,
+      "TSEInsCode": "23953663226548375",
+      "OptionType": "C",
+      "StrikePrice": "56000.0000",
+      "ExpiryDate": "2026-10-21",
+      "ExpiryDatePersian": "1405/07/29",
+      "IsActive": true
+    },
+    {
+      "OptionID": 5,
+      "TSEInsCode": "26116073846521759",
+      "OptionType": "P",
+      "StrikePrice": "24000.0000",
+      "ExpiryDate": "2026-10-21",
+      "ExpiryDatePersian": "1405/07/29",
+      "IsActive": true
+    },
+    {
+      "OptionID": 13,
+      "TSEInsCode": "26958565996800765",
+      "OptionType": "P",
+      "StrikePrice": "34000.0000",
+      "ExpiryDate": "2026-10-21",
+      "ExpiryDatePersian": "1405/07/29",
+      "IsActive": true
+    },
+    {
+      "OptionID": 15,
+      "TSEInsCode": "28004646087700990",
+      "OptionType": "P",
+      "StrikePrice": "38000.0000",
+      "ExpiryDate": "2026-10-21",
+      "ExpiryDatePersian": "1405/07/29",
+      "IsActive": true
+    },
+    {
+      "OptionID": 8,
+      "TSEInsCode": "28144333261517699",
+      "OptionType": "C",
+      "StrikePrice": "26000.0000",
+      "ExpiryDate": "2026-10-21",
+      "ExpiryDatePersian": "1405/07/29",
+      "IsActive": true
+    },
+    {
+      "OptionID": 14,
+      "TSEInsCode": "29778185185510585",
+      "OptionType": "C",
+      "StrikePrice": "34000.0000",
+      "ExpiryDate": "2026-10-21",
+      "ExpiryDatePersian": "1405/07/29",
+      "IsActive": true
+    },
+    {
+      "OptionID": 6,
+      "TSEInsCode": "2981675816992995",
+      "OptionType": "C",
+      "StrikePrice": "24000.0000",
+      "ExpiryDate": "2026-10-21",
+      "ExpiryDatePersian": "1405/07/29",
+      "IsActive": true
+    },
+    {
+      "OptionID": 3,
+      "TSEInsCode": "33729769377762283",
+      "OptionType": "P",
+      "StrikePrice": "22000.0000",
+      "ExpiryDate": "2026-10-21",
+      "ExpiryDatePersian": "1405/07/29",
+      "IsActive": true
+    },
+    {
+      "OptionID": 20,
+      "TSEInsCode": "34175952452012705",
+      "OptionType": "C",
+      "StrikePrice": "46000.0000",
+      "ExpiryDate": "2026-10-21",
+      "ExpiryDatePersian": "1405/07/29",
+      "IsActive": true
+    },
+    {
+      "OptionID": 9,
+      "TSEInsCode": "3601271742898640",
+      "OptionType": "P",
+      "StrikePrice": "28000.0000",
+      "ExpiryDate": "2026-10-21",
+      "ExpiryDatePersian": "1405/07/29",
+      "IsActive": true
+    },
+    {
+      "OptionID": 18,
+      "TSEInsCode": "36376073274065755",
+      "OptionType": "C",
+      "StrikePrice": "42000.0000",
+      "ExpiryDate": "2026-10-21",
+      "ExpiryDatePersian": "1405/07/29",
+      "IsActive": true
+    },
+    {
+      "OptionID": 16,
+      "TSEInsCode": "3959980703154953",
+      "OptionType": "C",
+      "StrikePrice": "38000.0000",
+      "ExpiryDate": "2026-10-21",
+      "ExpiryDatePersian": "1405/07/29",
+      "IsActive": true
+    },
+    {
+      "OptionID": 17,
+      "TSEInsCode": "41273399333337429",
+      "OptionType": "P",
+      "StrikePrice": "42000.0000",
+      "ExpiryDate": "2026-10-21",
+      "ExpiryDatePersian": "1405/07/29",
+      "IsActive": true
+    },
+    {
+      "OptionID": 54,
+      "TSEInsCode": "45260140814147731",
+      "OptionType": "C",
+      "StrikePrice": "80000.0000",
+      "ExpiryDate": "2026-10-21",
+      "ExpiryDatePersian": "1405/07/29",
+      "IsActive": true
+    },
+    {
+      "OptionID": 55,
+      "TSEInsCode": "47189190877578184",
+      "OptionType": "P",
+      "StrikePrice": "90000.0000",
+      "ExpiryDate": "2026-10-21",
+      "ExpiryDatePersian": "1405/07/29",
+      "IsActive": true
+    },
+    {
+      "OptionID": 22,
+      "TSEInsCode": "48417927688227268",
+      "OptionType": "C",
+      "StrikePrice": "50000.0000",
+      "ExpiryDate": "2026-10-21",
+      "ExpiryDatePersian": "1405/07/29",
+      "IsActive": true
+    },
+    {
+      "OptionID": 53,
+      "TSEInsCode": "49816586330607170",
+      "OptionType": "P",
+      "StrikePrice": "80000.0000",
+      "ExpiryDate": "2026-10-21",
+      "ExpiryDatePersian": "1405/07/29",
+      "IsActive": true
+    },
+    {
+      "OptionID": 7,
+      "TSEInsCode": "50381533386072990",
+      "OptionType": "P",
+      "StrikePrice": "26000.0000",
+      "ExpiryDate": "2026-10-21",
+      "ExpiryDatePersian": "1405/07/29",
+      "IsActive": true
+    },
+    {
+      "OptionID": 11,
+      "TSEInsCode": "50722285466614154",
+      "OptionType": "P",
+      "StrikePrice": "30000.0000",
+      "ExpiryDate": "2026-10-21",
+      "ExpiryDatePersian": "1405/07/29",
+      "IsActive": true
+    },
+    {
+      "OptionID": 51,
+      "TSEInsCode": "52553501104605839",
+      "OptionType": "P",
+      "StrikePrice": "74000.0000",
+      "ExpiryDate": "2026-10-21",
+      "ExpiryDatePersian": "1405/07/29",
+      "IsActive": true
+    },
+    {
+      "OptionID": 49,
+      "TSEInsCode": "53188074928115116",
+      "OptionType": "P",
+      "StrikePrice": "68000.0000",
+      "ExpiryDate": "2026-10-21",
+      "ExpiryDatePersian": "1405/07/29",
+      "IsActive": true
+    },
+    {
+      "OptionID": 19,
+      "TSEInsCode": "56981594284253648",
+      "OptionType": "P",
+      "StrikePrice": "46000.0000",
+      "ExpiryDate": "2026-10-21",
+      "ExpiryDatePersian": "1405/07/29",
+      "IsActive": true
+    },
+    {
+      "OptionID": 52,
+      "TSEInsCode": "60518811070166899",
+      "OptionType": "C",
+      "StrikePrice": "74000.0000",
+      "ExpiryDate": "2026-10-21",
+      "ExpiryDatePersian": "1405/07/29",
+      "IsActive": true
+    },
+    {
+      "OptionID": 2,
+      "TSEInsCode": "62444611500832644",
+      "OptionType": "C",
+      "StrikePrice": "20000.0000",
+      "ExpiryDate": "2026-10-21",
+      "ExpiryDatePersian": "1405/07/29",
+      "IsActive": true
+    },
+    {
+      "OptionID": 21,
+      "TSEInsCode": "62913554535814385",
+      "OptionType": "P",
+      "StrikePrice": "50000.0000",
+      "ExpiryDate": "2026-10-21",
+      "ExpiryDatePersian": "1405/07/29",
+      "IsActive": true
+    },
+    {
+      "OptionID": 23,
+      "TSEInsCode": "62922467095421733",
+      "OptionType": "P",
+      "StrikePrice": "56000.0000",
+      "ExpiryDate": "2026-10-21",
+      "ExpiryDatePersian": "1405/07/29",
+      "IsActive": true
+    },
+    {
+      "OptionID": 10,
+      "TSEInsCode": "637801642303120",
+      "OptionType": "C",
+      "StrikePrice": "28000.0000",
+      "ExpiryDate": "2026-10-21",
+      "ExpiryDatePersian": "1405/07/29",
+      "IsActive": true
+    },
+    {
+      "OptionID": 26,
+      "TSEInsCode": "63976939731487182",
+      "OptionType": "C",
+      "StrikePrice": "62000.0000",
+      "ExpiryDate": "2026-10-21",
+      "ExpiryDatePersian": "1405/07/29",
+      "IsActive": true
+    },
+    {
+      "OptionID": 79,
+      "TSEInsCode": "65990560704289616",
+      "OptionType": "P",
+      "StrikePrice": "100000.0000",
+      "ExpiryDate": "2026-10-21",
+      "ExpiryDatePersian": "1405/07/29",
+      "IsActive": true
+    },
+    {
+      "OptionID": 25,
+      "TSEInsCode": "68984808439842234",
+      "OptionType": "P",
+      "StrikePrice": "62000.0000",
+      "ExpiryDate": "2026-10-21",
+      "ExpiryDatePersian": "1405/07/29",
+      "IsActive": true
+    },
+    {
+      "OptionID": 1,
+      "TSEInsCode": "68991773475135927",
+      "OptionType": "P",
+      "StrikePrice": "20000.0000",
+      "ExpiryDate": "2026-10-21",
+      "ExpiryDatePersian": "1405/07/29",
+      "IsActive": true
+    },
+    {
+      "OptionID": 4,
+      "TSEInsCode": "7693632359685850",
+      "OptionType": "C",
+      "StrikePrice": "22000.0000",
+      "ExpiryDate": "2026-10-21",
+      "ExpiryDatePersian": "1405/07/29",
+      "IsActive": true
+    },
+    {
+      "OptionID": 12,
+      "TSEInsCode": "8317476333644321",
+      "OptionType": "C",
+      "StrikePrice": "30000.0000",
+      "ExpiryDate": "2026-10-21",
+      "ExpiryDatePersian": "1405/07/29",
+      "IsActive": true
+    },
+    {
+      "OptionID": 50,
+      "TSEInsCode": "9766397730892719",
+      "OptionType": "C",
+      "StrikePrice": "68000.0000",
+      "ExpiryDate": "2026-10-21",
+      "ExpiryDatePersian": "1405/07/29",
+      "IsActive": true
+    }
+  ],
+  "Matched": [
+    {
+      "TSEInsCode": "10018514830520205",
+      "SourceOptionType": "C",
+      "DatabaseOptionType": "C",
+      "DatabaseOptionID": 42,
+      "OptionTypeMatches": true
+    },
+    {
+      "TSEInsCode": "11786546204100821",
+      "SourceOptionType": "C",
+      "DatabaseOptionType": "C",
+      "DatabaseOptionID": 66,
+      "OptionTypeMatches": true
+    },
+    {
+      "TSEInsCode": "12116204032457467",
+      "SourceOptionType": "C",
+      "DatabaseOptionType": "C",
+      "DatabaseOptionID": 34,
+      "OptionTypeMatches": true
+    },
+    {
+      "TSEInsCode": "12958082347153501",
+      "SourceOptionType": "P",
+      "DatabaseOptionType": "P",
+      "DatabaseOptionID": 37,
+      "OptionTypeMatches": true
+    },
+    {
+      "TSEInsCode": "13786173665098694",
+      "SourceOptionType": "P",
+      "DatabaseOptionType": "P",
+      "DatabaseOptionID": 83,
+      "OptionTypeMatches": true
+    },
+    {
+      "TSEInsCode": "14733915547136628",
+      "SourceOptionType": "P",
+      "DatabaseOptionType": "P",
+      "DatabaseOptionID": 65,
+      "OptionTypeMatches": true
+    },
+    {
+      "TSEInsCode": "18095158409717459",
+      "SourceOptionType": "P",
+      "DatabaseOptionType": "P",
+      "DatabaseOptionID": 47,
+      "OptionTypeMatches": true
+    },
+    {
+      "TSEInsCode": "18665926887967158",
+      "SourceOptionType": "C",
+      "DatabaseOptionType": "C",
+      "DatabaseOptionID": 30,
+      "OptionTypeMatches": true
+    },
+    {
+      "TSEInsCode": "19175421747949646",
+      "SourceOptionType": "P",
+      "DatabaseOptionType": "P",
+      "DatabaseOptionID": 81,
+      "OptionTypeMatches": true
+    },
+    {
+      "TSEInsCode": "19878700111798531",
+      "SourceOptionType": "P",
+      "DatabaseOptionType": "P",
+      "DatabaseOptionID": 35,
+      "OptionTypeMatches": true
+    },
+    {
+      "TSEInsCode": "21794636381809675",
+      "SourceOptionType": "P",
+      "DatabaseOptionType": "P",
+      "DatabaseOptionID": 75,
+      "OptionTypeMatches": true
+    },
+    {
+      "TSEInsCode": "22094468707473892",
+      "SourceOptionType": "C",
+      "DatabaseOptionType": "C",
+      "DatabaseOptionID": 72,
+      "OptionTypeMatches": true
+    },
+    {
+      "TSEInsCode": "22826119556531041",
+      "SourceOptionType": "C",
+      "DatabaseOptionType": "C",
+      "DatabaseOptionID": 68,
+      "OptionTypeMatches": true
+    },
+    {
+      "TSEInsCode": "25432083171473433",
+      "SourceOptionType": "P",
+      "DatabaseOptionType": "P",
+      "DatabaseOptionID": 41,
+      "OptionTypeMatches": true
+    },
+    {
+      "TSEInsCode": "26181573386766878",
+      "SourceOptionType": "P",
+      "DatabaseOptionType": "P",
+      "DatabaseOptionID": 33,
+      "OptionTypeMatches": true
+    },
+    {
+      "TSEInsCode": "2698346485365864",
+      "SourceOptionType": "P",
+      "DatabaseOptionType": "P",
+      "DatabaseOptionID": 67,
+      "OptionTypeMatches": true
+    },
+    {
+      "TSEInsCode": "28165273239560344",
+      "SourceOptionType": "C",
+      "DatabaseOptionType": "C",
+      "DatabaseOptionID": 32,
+      "OptionTypeMatches": true
+    },
+    {
+      "TSEInsCode": "29522243676066516",
+      "SourceOptionType": "C",
+      "DatabaseOptionType": "C",
+      "DatabaseOptionID": 84,
+      "OptionTypeMatches": true
+    },
+    {
+      "TSEInsCode": "30478780967033891",
+      "SourceOptionType": "C",
+      "DatabaseOptionType": "C",
+      "DatabaseOptionID": 64,
+      "OptionTypeMatches": true
+    },
+    {
+      "TSEInsCode": "35875049744666675",
+      "SourceOptionType": "C",
+      "DatabaseOptionType": "C",
+      "DatabaseOptionID": 62,
+      "OptionTypeMatches": true
+    },
+    {
+      "TSEInsCode": "38431420463744448",
+      "SourceOptionType": "C",
+      "DatabaseOptionType": "C",
+      "DatabaseOptionID": 48,
+      "OptionTypeMatches": true
+    },
+    {
+      "TSEInsCode": "42137100448376631",
+      "SourceOptionType": "P",
+      "DatabaseOptionType": "P",
+      "DatabaseOptionID": 59,
+      "OptionTypeMatches": true
+    },
+    {
+      "TSEInsCode": "4971285258267566",
+      "SourceOptionType": "P",
+      "DatabaseOptionType": "P",
+      "DatabaseOptionID": 45,
+      "OptionTypeMatches": true
+    },
+    {
+      "TSEInsCode": "52093506777318573",
+      "SourceOptionType": "C",
+      "DatabaseOptionType": "C",
+      "DatabaseOptionID": 74,
+      "OptionTypeMatches": true
+    },
+    {
+      "TSEInsCode": "52108299737513207",
+      "SourceOptionType": "C",
+      "DatabaseOptionType": "C",
+      "DatabaseOptionID": 78,
+      "OptionTypeMatches": true
+    },
+    {
+      "TSEInsCode": "52780762383210426",
+      "SourceOptionType": "C",
+      "DatabaseOptionType": "C",
+      "DatabaseOptionID": 82,
+      "OptionTypeMatches": true
+    },
+    {
+      "TSEInsCode": "52792047330539792",
+      "SourceOptionType": "C",
+      "DatabaseOptionType": "C",
+      "DatabaseOptionID": 44,
+      "OptionTypeMatches": true
+    },
+    {
+      "TSEInsCode": "55380241895925075",
+      "SourceOptionType": "P",
+      "DatabaseOptionType": "P",
+      "DatabaseOptionID": 73,
+      "OptionTypeMatches": true
+    },
+    {
+      "TSEInsCode": "5582891928037431",
+      "SourceOptionType": "C",
+      "DatabaseOptionType": "C",
+      "DatabaseOptionID": 70,
+      "OptionTypeMatches": true
+    },
+    {
+      "TSEInsCode": "56954662775448971",
+      "SourceOptionType": "C",
+      "DatabaseOptionType": "C",
+      "DatabaseOptionID": 28,
+      "OptionTypeMatches": true
+    },
+    {
+      "TSEInsCode": "57342697611492231",
+      "SourceOptionType": "P",
+      "DatabaseOptionType": "P",
+      "DatabaseOptionID": 69,
+      "OptionTypeMatches": true
+    },
+    {
+      "TSEInsCode": "57633476576138071",
+      "SourceOptionType": "P",
+      "DatabaseOptionType": "P",
+      "DatabaseOptionID": 57,
+      "OptionTypeMatches": true
+    },
+    {
+      "TSEInsCode": "58980125072230074",
+      "SourceOptionType": "P",
+      "DatabaseOptionType": "P",
+      "DatabaseOptionID": 39,
+      "OptionTypeMatches": true
+    },
+    {
+      "TSEInsCode": "59046324684454732",
+      "SourceOptionType": "C",
+      "DatabaseOptionType": "C",
+      "DatabaseOptionID": 60,
+      "OptionTypeMatches": true
+    },
+    {
+      "TSEInsCode": "59275340743792076",
+      "SourceOptionType": "P",
+      "DatabaseOptionType": "P",
+      "DatabaseOptionID": 77,
+      "OptionTypeMatches": true
+    },
+    {
+      "TSEInsCode": "59426057633536396",
+      "SourceOptionType": "P",
+      "DatabaseOptionType": "P",
+      "DatabaseOptionID": 31,
+      "OptionTypeMatches": true
+    },
+    {
+      "TSEInsCode": "61500711433740234",
+      "SourceOptionType": "C",
+      "DatabaseOptionType": "C",
+      "DatabaseOptionID": 40,
+      "OptionTypeMatches": true
+    },
+    {
+      "TSEInsCode": "63599360240809517",
+      "SourceOptionType": "C",
+      "DatabaseOptionType": "C",
+      "DatabaseOptionID": 36,
+      "OptionTypeMatches": true
+    },
+    {
+      "TSEInsCode": "64427132952754690",
+      "SourceOptionType": "P",
+      "DatabaseOptionType": "P",
+      "DatabaseOptionID": 63,
+      "OptionTypeMatches": true
+    },
+    {
+      "TSEInsCode": "64882372946109233",
+      "SourceOptionType": "P",
+      "DatabaseOptionType": "P",
+      "DatabaseOptionID": 71,
+      "OptionTypeMatches": true
+    },
+    {
+      "TSEInsCode": "65838086018848080",
+      "SourceOptionType": "P",
+      "DatabaseOptionType": "P",
+      "DatabaseOptionID": 27,
+      "OptionTypeMatches": true
+    },
+    {
+      "TSEInsCode": "69226044702448424",
+      "SourceOptionType": "P",
+      "DatabaseOptionType": "P",
+      "DatabaseOptionID": 61,
+      "OptionTypeMatches": true
+    },
+    {
+      "TSEInsCode": "69357254079049448",
+      "SourceOptionType": "C",
+      "DatabaseOptionType": "C",
+      "DatabaseOptionID": 76,
+      "OptionTypeMatches": true
+    },
+    {
+      "TSEInsCode": "69460050518905041",
+      "SourceOptionType": "C",
+      "DatabaseOptionType": "C",
+      "DatabaseOptionID": 46,
+      "OptionTypeMatches": true
+    },
+    {
+      "TSEInsCode": "70160331666811226",
+      "SourceOptionType": "C",
+      "DatabaseOptionType": "C",
+      "DatabaseOptionID": 58,
+      "OptionTypeMatches": true
+    },
+    {
+      "TSEInsCode": "71915323158940310",
+      "SourceOptionType": "C",
+      "DatabaseOptionType": "C",
+      "DatabaseOptionID": 38,
+      "OptionTypeMatches": true
+    },
+    {
+      "TSEInsCode": "8284359812363652",
+      "SourceOptionType": "P",
+      "DatabaseOptionType": "P",
+      "DatabaseOptionID": 29,
+      "OptionTypeMatches": true
+    },
+    {
+      "TSEInsCode": "9972193438263065",
+      "SourceOptionType": "P",
+      "DatabaseOptionType": "P",
+      "DatabaseOptionID": 43,
+      "OptionTypeMatches": true
+    }
+  ]
+}
